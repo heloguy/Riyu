@@ -1,7 +1,7 @@
 module.exports = {
   title: 'John Smith',
   header: "Hi, I'm John Smith",
-  description: "I'm a college junior currently taking up Computer Science in University X. I'm a freelance developer with 4 years of experience, having worked with clients such as X, Y, Z. I enjoy building everything from small business sites to rich interactive web apps.",
+  description: "I'm a college currently taking up Computer Science in University X. I'm a freelance developer with 4 years of experience, having worked with clients such as X, Y, Z. I enjoy building everything from small business sites to rich interactive web apps.",
   name: 'John Smith',
   footerTitle: 'Software Engineer',
   email: 'johnsmith@mail.com',
@@ -39,6 +39,24 @@ module.exports = {
       title: 'Senior Software Engineer at Company A',
       timeline: 'Jan 2016 - Present',
       description: 'Implemented Gamification for system',
+    },
+    {
+      title: 'Fullstack Software Engineer at Company B',
+      timeline: 'Feb 2015 - Dec 2015',
+      responsibilities: [
+        'Worked with a global team of developers and artists for the implementation of new features in Existing Codebase of a Free-to-play MMO',
+        'Increased rate of tickets/tasks done by the team up to 300% within first few weeks!',
+        'Added Abstractions on Server API to Minimize Duplicate Code'
+      ]
+    },
+    {
+      title: 'Fullstack Software Engineer at Company B',
+      timeline: 'Feb 2015 - Dec 2015',
+      responsibilities: [
+        'Worked with a global team of developers and artists for the implementation of new features in Existing Codebase of a Free-to-play MMO',
+        'Increased rate of tickets/tasks done by the team up to 300% within first few weeks!',
+        'Added Abstractions on Server API to Minimize Duplicate Code'
+      ]
     },
     {
       title: 'Fullstack Software Engineer at Company B',

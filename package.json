@@ -1,14 +1,17 @@
 {
-  "name": "Riyu",
+  "name": "riyu",
   "version": "0.8.0",
-  "description": "",
+  "description": "Riyu is a cool, modern, and minimal portfolio template that is super easy to customize.",
   "main": "js/scripts.js",
   "scripts": {
-    "start": "npm run serve",
-    "serve": "gulp serve",
-    "watch": "gulp watch",
+    "preinstall": "npx npm-force-resolutions",
+    "start": "npm run watch",
+    "watch": "gulp serve",
     "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   },
   "author": "Arian Allenson M. Valdez <Secretmapper16@gmail.com>",
   "license": "MIT",
@@ -24,5 +27,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.1.2"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }

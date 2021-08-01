@@ -49,11 +49,9 @@
       }
     }
     &:nth-child(odd) {
-      margin-top: 20px;
-      margin-bottom: -100px;
 
       @media #{$tablet} {
-        margin-top: 160px;
+        margin-top: 100px;
         margin-left: 7%;
         &:after {
           left: -8%;
