@@ -3,7 +3,7 @@ module.exports = {
   header: "Hi, I'm Matt!",
   description: "I'm a software engineer with a passion for designing and building products for mobile and web that make our lives easier and more productive.",
   name: 'Matt Martin',
-  email: 'matthew.i.lastname3@gmail.com',
+  email: 'matthew.i.{LAST_NAME}3@gmail.com',
   education: "Bachelor's in Computer Science, Washington State University, 2011",
   cta: {
     label: 'View my resumé',
@@ -59,8 +59,8 @@ module.exports = {
       name: 'T-6B EICAS',
       date: '2016-2017',
       description: 'EICAS stands for "engine-indicating and crew-alerting system." It\'s a fancy way of describing gauges and alerts on some military aircraft. Determining when an aircraft is in a dangerous or hazardous state requires careful study and understanding of systems indications.',
-      description2: 'I built the app while flying the <a href="https://en.wikipedia.org/wiki/Beechcraft_T-6_Texan_II">T-6B</a> during flight school to simulate gauges and error states that a T-6 pilot may encounter during flight. The Android app allowed students to train their brains on gauge indications to develop muscle memory for certain emergencies from their phone and without wasting precious simulator time.',
-      tags: ['js', 'Node', 'Jade', 'Spotify-API'],
+      description2: 'I built the app while learning to fly the <a href="https://en.wikipedia.org/wiki/Beechcraft_T-6_Texan_II">T-6B</a> during flight school to simulate gauges and error states that a T-6 pilot may encounter during flight. The Android app allowed students to train their brains on gauge indications to develop muscle memory for certain emergencies from their phone and without wasting precious simulator time.',
+      tags: ['Android', 'Java'],
       alt: 'EICAS screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
       img: 'eicas.png',
       url: 'https://www.github.com/heloguy/t6beicas'
