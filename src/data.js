@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Matt Martin',
-  header: "Hi, I'm Matt",
+  header: "Hi, I'm Matt!",
   description: "I'm a software engineer with a passion for designing and building products for mobile and web that make our lives easier and more productive.",
   name: 'Matt Martin',
   email: 'matthew.i.lastname3@gmail.com',
