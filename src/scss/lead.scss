@@ -3,6 +3,25 @@
   @media #{$tablet} {
     padding: 115px 0 0px;
   }
+
+  .profile__pic {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    height: auto;
+    max-width: 50%;
+
+    @media #{$tablet} {
+      float: right;
+    }
+
+    @media #{$mobile} {
+      align:center;
+    }
+  }
+
   &__heading {
     animation: slideUp 750ms both;
     font-size: 40px;

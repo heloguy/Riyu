@@ -48,8 +48,8 @@ module.exports = {
     {
       name: 'Khan as a Service',
       date: '2013',
-      description: 'KHANAAS is a fork of "FOAAS" that provides a web API for friends and co-workers to express friendly disdain for one another\'s actions in the form of Captain James Kirk or Dr. Spock cursing their name in classic Star Trek style.',
-      description2: 'The API went viral from an HN post and received 50,000 unqiue impression\'s on its first day. After two years, the domain lapsed and it has since been forked and revived by other users.',
+      description: 'KHANAAS is a fork of "FOAAS" that provides a web API for friends and co-workers to express friendly disdain for one another\'s actions in the form of Captain James Kirk or Mr. Spock cursing their name in classic Star Trek style.',
+      description2: 'The API went viral from an HN post and received 50,000 unique impressions on its first day. After two years, the domain lapsed and it has since been forked and revived by other users.',
       tags: ['js', 'Node', 'Firebase'],
       alt: 'KHANAAS screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
       img: 'khaan.jpg',
