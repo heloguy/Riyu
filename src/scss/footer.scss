@@ -4,6 +4,10 @@
   text-align: center;
   padding: 5px 5px 5px 5px;
 
+  &__credit {
+    -webkit-text-size-adjust: 60%;
+  }
+
   &__name {
     margin-top: 0;
     margin-bottom: 0;

@@ -26,13 +26,14 @@
   &__img-container {
     margin: 0 auto;
     text-align: center;
-    height: 100px;
-    width: 100px;
+    height: 200;
+    width: 200px;
     line-height: 100px;
 
     @media #{$tablet} {
       float: left;
       line-height: 300px;
+      vertical-align: middle;
       height: 300px;
       width: 300px;
     }

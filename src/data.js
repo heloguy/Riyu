@@ -30,7 +30,7 @@ module.exports = {
       date: '2013-2015',
       description: 'I created Juke to solve the problem of playlist control at parties and events. The party host launches a lightweight node.js server that opens an endpoint on their local network. Users with mobile devices scan a QR code or navigate to a custom url and are presented with a frontend to add songs to a playlist.',
       description2: 'The server ingests songs as they\'re added to the playlist and forwards them to a Spotify-API that places them in a queue. Songs are played in FIFO order. The party hosts retains admin powers to veto requests and skip songs from their mobile device or the host machine.',
-      tags: ['js', 'Node', 'Jade', 'Spotify-API'],
+      tags: ['js', 'Node', 'Jade', 'Spotify-API', 'HTML', 'CSS'],
       kpis: ['Working prototype marketed to Spotify in 2013 but was ultimately declined.', 'Juke was used by friends and colleagues at home and work for weddings and other events.', 'API was deprecated in 2015 and Juke died with it.'],
       alt: 'Juke screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
       img: 'juke.png',
@@ -39,8 +39,8 @@ module.exports = {
     {
       name: 'Tomauto',
       date: '2014',
-      description: 'Tomauto is a Chrome extension that allows users to highlight a movie name on any webpage, right click it, and access that film\'s Rotten Tomatoes rating.',
-      tags: ['js', 'jQuery', 'Chrome'],
+      description: 'Tomauto is a Chrome extension that allows users to highlight a movie name on any webpage, right click it, and access that film\'s Rotten Tomatoes rating in the context menu.',
+      tags: ['js', 'jQuery', 'HTML', 'CSS'],
       alt: 'Tomauto Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
       img: 'tomauto.png',
       url: 'https://www.github.com/heloguy/tomauto'
@@ -50,7 +50,7 @@ module.exports = {
       date: '2013',
       description: 'KHANAAS is a fork of "FOAAS" that provides a web API for friends and co-workers to express friendly disdain for one another\'s actions in the form of Captain James Kirk or Mr. Spock cursing their name in classic Star Trek style.',
       description2: 'The API went viral from an HN post and received 50,000 unique impressions on its first day. After two years, the domain lapsed and it has since been forked and revived by other users.',
-      tags: ['js', 'Node', 'Firebase'],
+      tags: ['js', 'Node', 'Firebase', 'HTML', 'CSS'],
       alt: 'KHANAAS screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
       img: 'khaan.jpg',
       url: 'http://www.khanaas.com/'
@@ -70,7 +70,7 @@ module.exports = {
     {
       title: 'Software Engineer on Mobile/Web at Freelance',
       timeline: 'May 2011 - Present',
-      description: 'Projects ranging from small productivity life-hack apps to a military flight scheduling app used by thousands of daily users.',
+      description: 'Projects ranging from small productivity life-hack apps to a military flight scheduling app with thousands of downloads and hundreds of daily users.',
       responsibilities: [
         'Full-stack web.',
         'iOS.',
@@ -92,7 +92,7 @@ module.exports = {
       timeline: 'Mar 2013-Jun 2014',
       description: 'Engineer on a nationwide team of developers, QA engineers, artists, and testers working on "Salesforce1", a CRM app that enables companies to manage employees, inventory, and customer engagement.',
       responsibilities: [
-        'Built out features, unit tests, automation tests, and closed out bugs for release of Salesforce1 app at Dreamforce 2014.',
+        'Built out features, unit tests, automation tests, and closed out bugs for release of Salesforce1 app at Dreamforce 2013.',
         'Collaborated with a distributed team of engineers and QAs during agile sprints.'
       ]
     },
