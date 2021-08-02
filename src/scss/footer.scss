@@ -2,7 +2,7 @@
   background-color: $footer-color;
   color: $footer-text-color;
   text-align: center;
-  padding: 20px 0;
+  padding: 5px 5px 5px 5px;
 
   &__name {
     margin-top: 0;
@@ -11,5 +11,6 @@
   &__title {
     margin-top: 0;
     color: $footer-alt-color;
+    margin-bottom: 5px;
   }
 }

@@ -6,6 +6,10 @@ body {
   vertical-align: baseline;
 }
 
+a {
+  color: gray;
+}
+
 * {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -31,11 +35,11 @@ body {
 
   text-decoration: none;
 
-  background: $info-color;
+  background: $button-color;
   color: $info-text-color;
 
   &--primary {
-    background: $main-color;
+    background: $button-color;
     color: $main-text-color;
   }
 

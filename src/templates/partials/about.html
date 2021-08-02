@@ -1,5 +1,5 @@
 <div class="container">
-  <h2>Testimonials</h2>
+  <h2>{{ testimonals.title }}</h2>
   {% for testimonial in testimonials %}
     <blockquote class="testimonial">
       <p>“{{ testimonial.quote }}”</p>
@@ -13,6 +13,6 @@
   {% endfor %}
   <div class='contact'>
     <h2>Contact</h2>
-    <p class='contact__msg'>I'm currently available for freelance projects or full-time work. If you're interested in working with me, please get in touch through <a href='mailto:{{email}}'>{{ email }}</a>.
+    <p class='contact__msg'>I'm currently pursuing software engineering internship/apprenticeship opportunities through the DoD Skillbridge <a href='https://dodskillbridge.usalearning.gov/'>program</a> with a start date of June '22 and the option for full-time in Oct '22.<br><br> E-mail me at: {{ email }}</a>.
   </div>
 </div>

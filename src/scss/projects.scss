@@ -1,10 +1,26 @@
 .project {
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   text-align: center;
 
   @media #{$tablet} {
     text-align: left;
+  }
+
+  p, li {
+    @media #{$mobile} {
+      text-align: left;
+    }
+    text-align: left;
+  }
+
+  ul {
+      padding-left: 15px;
+  }
+
+  li {
+    font-size: 14.5px;
+    font-weight: bold;
   }
 
   &__img-container {
@@ -29,6 +45,15 @@
     text-align: center;
     vertical-align: middle;
   }
+  &__date {
+    margin-bottom: 10px;
+    @media #{$tablet} {
+      margin: 2px;
+      margin-bottom: 5px;
+      text-align: left;
+    }
+  }
+
   &__name {
     margin-bottom: 5px;
   }
