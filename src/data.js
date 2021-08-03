@@ -2,6 +2,7 @@ module.exports = {
   title: 'Matt Martin',
   header: "Hi, I'm Matt!",
   description: "I'm a software engineer with a passion for designing and building products for mobile and web that make our lives easier and more productive.",
+  description2: "I'm currently pursuing software engineering internship/apprenticeship opportunities through the DoD Skillbridge <a href='https://dodskillbridge.usalearning.gov/'>program</a> with a start date of June '22 and the option for full time in Oct '22.<br><p class='contact__email'>E-mail me at: matthew.i.<b>last_name</b>3@gmail.com.",
   name: 'Matt Martin',
   emailStart: 'matthew.',
   emailEnd: 'i.{last_name}3@gmail.com',
@@ -69,14 +70,14 @@ module.exports = {
   ],
   experiences: [
     {
-      title: 'Software Engineer on Mobile/Web at Freelance',
+      title: 'Full-stack/Mobile Engineer at Freelance',
       timeline: 'May 2011 - Present',
       description: 'Projects ranging from small productivity life-hack apps to a paid flight scheduling app with thousands of downloads and hundreds of daily users.',
       responsibilities: [
-        'Full-stack web',
+        'Web',
         'iOS',
         'Android',
-        '<a href="#projects">Go to projects</a>'
+        '<a href="#projects">Go to projects.</a>'
       ]
     },
     {
@@ -93,12 +94,12 @@ module.exports = {
       timeline: 'Mar 2013-Jun 2014',
       description: 'Engineer on a nationwide team of developers, QA engineers, artists, and testers working on "Salesforce1", a CRM app that enables companies to manage employees, inventory, and customer engagement.',
       responsibilities: [
-        'Built out features, unit tests, automation tests, and closed out bugs for release of Salesforce1 app at Dreamforce 2013.',
+        'Built out features, created tests, fixed bugs, and was a plank-holder for the release of SF1 at Dreamforce \'13.',
         'Collaborated with a distributed team of engineers and QAs during agile sprints.'
       ]
     },
     {
-      title: 'Software Engineer at Realnetworks, Inc.',
+      title: 'Full-stack Engineer at Realnetworks, Inc.',
       timeline: 'May 2011-Mar 2013',
       description: 'Engineer on a team that developed and maintained an internal BI tool used company-wide to drive data-based decision making for Real\'s suite of software.',
       responsibilities: [
