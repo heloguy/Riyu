@@ -49,7 +49,16 @@
         width: 9%; 
       }
     }
+
+    .experience__header {
+      @media #{$tablet} {
+        text-align: right;
+      }
+    }
     &:nth-child(odd) {
+      .experience__header {
+        text-align: left;
+      }
       @media #{$tablet} {
         margin-top: 100px;
         margin-left: 7%;
