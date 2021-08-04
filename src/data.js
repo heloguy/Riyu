@@ -2,13 +2,13 @@ module.exports = {
   title: 'Matt Martin',
   header: "Hi, I'm Matt!",
   description: "I'm a software engineer with a passion for designing and building products for mobile and web that make our lives easier and more productive.",
-  description2: "I'm currently pursuing software engineering internship/apprenticeship opportunities through the DoD Skillbridge <a href='https://dodskillbridge.usalearning.gov/'>program</a> with a start date of June '22 and the option for full time in Oct '22.<br><p class='contact__email'>E-mail me at: matthew.i.<b>last_name</b>3@gmail.com.",
+  description2: "I'm currently pursuing software engineering internship/apprenticeship opportunities through the DoD Skillbridge <a href='https://dodskillbridge.usalearning.gov/'>program</a> with a start date of June '22 and the option for full time in Oct '22.",
   name: 'Matt Martin',
   emailStart: 'matthew.',
-  emailEnd: 'i.{last_name}3@gmail.com',
+  emailEnd: 'i.last_name3@gmail.com',
   education: "Bachelor's in Computer Science, Washington State University, 2011",
   cta: {
-    label: 'View my resumé',
+    label: 'View my résumé',
     url: 'resource/resume.pdf',
   },
   socials: [
@@ -74,6 +74,7 @@ module.exports = {
       timeline: 'May 2011 - Present',
       description: 'Projects ranging from small productivity life-hack apps to a paid flight scheduling app with thousands of downloads and hundreds of daily users.',
       responsibilities: [
+        'Ten years of experience designing and building mobile and web products.',
         'Web',
         'iOS',
         'Android',
@@ -83,10 +84,11 @@ module.exports = {
     {
       title: 'Instructor Pilot, Operations Officer at U.S. Marines',
       timeline: 'Jun 2014-Present',
-      description: "In 2014, I left software to pursue my passion for aviation. I'm now a senior instructor pilot and operations officer in charge of squadron flight operations. Military exit in Spring '22.",
+      description: "In 2014, I left software to pursue a passion for aviation and fulfill a desire to serve. Military exit in Spring '22.",
       responsibilities: [
-        'Instruct and mentor the next generation of Naval Aviators.',
-        'Plan and oversee daily execution of flight ops involving 20+ aircraft and 50+ pilots while managing risk, cost, and training requirements.',
+        'Operations Officer (Deputy Director) in charge of managing risk, cost, and personnel in an organization consisting of over three hundred people and thirty aircraft.',
+        'Proven leader with experience managing teams ranging in size from 15-20 to complex operations involving hundreds of personnel and aircraft.',
+        'Senior AH-1Z instructor pilot responsible for training and mentoring the next generation of Naval Aviators.',
       ]
     },
     {
@@ -94,7 +96,7 @@ module.exports = {
       timeline: 'Mar 2013-Jun 2014',
       description: 'Engineer on a nationwide team of developers, QA engineers, artists, and testers working on "Salesforce1", a CRM app that enables companies to manage employees, inventory, and customer engagement.',
       responsibilities: [
-        'Built out features, created tests, fixed bugs, and was a plank-holder for the release of SF1 at Dreamforce \'13.',
+        'Built out features, developed tests, fixed bugs, and was a plank-holder for the release of SF1 at Dreamforce \'13.',
         'Collaborated with a distributed team of engineers and QAs during agile sprints.'
       ]
     },
@@ -104,7 +106,7 @@ module.exports = {
       description: 'Engineer on a team that developed and maintained an internal BI tool used company-wide to drive data-based decision making for Real\'s suite of software.',
       responsibilities: [
         'Full-stack web experience on a javascript frontend and a backend/ingestion suite consisting of a dozen technologies to include php, Java, perl, MySQL, and C.',
-        'Optimized algorithms that ingested multi-billow row databases from RealPlayer software installed on almost two hundred million machines worldwide.',
+        'Optimized time and space complexity on algorithms to efficiently ingest and parse multi-billow row datasets.',
       ]
     }
   ]
