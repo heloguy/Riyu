@@ -39,13 +39,13 @@ module.exports = {
       url: 'https://www.github.com/heloguy/juke'
     }, 
     {
-      name: 'Tomauto',
+      name: 'Automato',
       date: '2014',
-      description: 'Tomauto is a Chrome extension that allows users to highlight a movie name on any webpage, right click it, and access that film\'s Rotten Tomatoes rating in the context menu.',
+      description: 'Automato is a Chrome extension that allows users to highlight a movie name on any webpage, right click it, and access that film\'s Rotten Tomatoes rating in the context menu.',
       tags: ['js', 'jQuery'],
-      alt: 'Tomauto Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
+      alt: 'Automato Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
       img: 'tomauto.png',
-      url: 'https://www.github.com/heloguy/tomauto'
+      url: 'https://www.github.com/heloguy/automato'
     },
     {
       name: 'Khan as a Service',
