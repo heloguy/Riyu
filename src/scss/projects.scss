@@ -43,8 +43,11 @@
     margin: 0 auto;
     max-height: 100%;
     max-width: 100%;
+    width: 200px;
+    height: 200px;
     text-align: center;
     vertical-align: middle;
+    border-radius: 25%;
   }
   &__date {
     margin-bottom: 10px;
