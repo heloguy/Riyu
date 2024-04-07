@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Matt Martin',
-  header: "Hi, I'm Matt!",
-  description: "I'm a software engineer with a passion for designing and building products for mobile and web that make our lives easier and more productive.",
-  description2: "I'm currently exploring exploring opportunities in mobile and web.",
+  header: "Matt Martin",
+  description: "I'm a software engineer with a passion for designing and building products that make our lives easier and more productive.",
+  description2: "I'm currently exploring opportunities in mobile and web.",
   name: 'Matt Martin',
   emailStart: 'matthew.',
   emailEnd: 'i.last_name3@gmail.com',
@@ -21,7 +21,7 @@ module.exports = {
       date: '2015-Present',
       description: 'A freemium productivity app that allows Navy flight students and instructors to effectively manage their individual flying schedules. A Node backend hosted on Firebase crawls the Navy flight schedules website, waiting for the next day\'s schedule to be released for each of the 25 training squadrons.',
       description2: 'When a schedule drops, users receive a push notification that opens the app to their scheduled event(s). The frontend is a native iOS app that parses the raw HTML schedule data and allows users to search and filter by name and squadron.',
-      tags: ['iOS', 'Swift', 'Node.js', 'Firebase'],
+      tags: ['iOS', 'Swift', 'Node.js', 'Axios', 'Q', 'Cheerio', 'Firebase'],
       kpis: ['Top 15 in "Productivity" apps from Feb 2020-March 2020.', 'Over 10,000 downloads since 2015.', '300 daily unique users', '90% Conversion Rate', 'Projected Android release in Fall \'21'],
       alt: 'Skeds Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
       img: 'skeds.png',
@@ -69,6 +69,25 @@ module.exports = {
     }
   ],
   experiences: [
+    {
+      title: 'Senior IOS Engineer, Tech Lead at Toast, Inc.}',
+      timeline: 'Jun 2022 - Present',
+      description: '',
+      responsibilities: [
+        'As technical lead on the Toast App Growth Team, I\'m responsible for directing and coordinating all technical initiatives; mentoring team members; recommending and overseeing process improvements; and actively contributing to development.',
+        'Directly responsible for shipping features that have resulted in increases in user engagement, guest transaction frequency, and gross merchandise value (GMV).',
+        '85% of my work is iOS/Swift but I occasionally work on our backend services (node, Kotlin, Java, GraphQL) and on the Toast POS (Java, Kotlin).'  
+      ]
+    },
+    {
+      title: 'Co-Founder at North County Entrepreneurs.}',
+      timeline: 'Mar 2023 - Present',
+      description: '',
+      responsibilities: [
+        'Empowering local founders by providing a venue for entrepreneurial discussion, networking, and learning in the form of a monthly in-person meetup. https://northcountyentrepreneurs.com',
+        'Responsible for growing the organization from zero to over 150 members.'
+      ]
+    },
     {
       title: 'Full-stack/Mobile Engineer (Freelance)',
       timeline: 'May 2011 - Present',

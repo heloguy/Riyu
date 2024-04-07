@@ -1,0 +1,41 @@
+.navbar {
+  float: top;
+  min-height: 60px;
+  padding: 20px;
+  background: black;
+  border-bottom: 2px solid #ddd;
+
+  @media #{$tablet} {
+    max-height: 30px;
+  }
+
+  &__content {
+    margin-top: auto;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: auto;
+    padding: 0 10px 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    @media #{$tablet} {
+
+    }
+  }
+
+  &__link {
+    display: none;
+    width: 200px;
+
+    @media #{$tablet} {
+      display: block;
+      padding: 10px 10px 0 10px;
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
